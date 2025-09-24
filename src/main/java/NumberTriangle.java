@@ -90,6 +90,7 @@ public class NumberTriangle {
      *
      */
     public int retrieve(String path) {
+        //finished
         if (this.isLeaf() | path.length() == 0) {
             return this.root;
         } else if (path.charAt(0) == 'l' && this.left != null) {
